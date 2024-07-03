@@ -1,8 +1,8 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
-import Check from './Check';
-import OurStory from './OurStory';
+import Check from './component./Check';
+import OurStory from './components./OurStory';
 
 const Stack = createStackNavigator();
 
